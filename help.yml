@@ -1,0 +1,11 @@
+name: mp3-downloader
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - customtkinter  # Arayüz (GUI) için gerekli
+      - yt-dlp         # MP3 indirme işlemi için gerekli
+      - pillow         # Görselleri işlemek için gerekli
+      - packaging
