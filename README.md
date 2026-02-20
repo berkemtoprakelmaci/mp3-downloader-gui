@@ -25,3 +25,8 @@ Copy the ffmpeg.exe and ffprobe.exe files next to .py file.
 For .py to .exe (cmd should be opened in the directory that consist .py file):
 `pip3 install pyinstaller` (if pyinstaller is installed already not needed)
 `pyinstaller --noconsole --onefile --add-binary "ffmpeg.exe;." --add-binary "ffprobe.exe;." mp3_downloader.py`
+
+## Preview
+
+<img width="404" height="184" alt="image" src="https://github.com/user-attachments/assets/3719de54-decd-46c8-9f98-f3034f32ec58" />
+
